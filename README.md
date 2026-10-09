@@ -87,13 +87,6 @@ Ajustes necesarios para que sea comparable con la implementación propia:
 
 Valores obtenidos al ejecutar la comparación con los hiperparámetros anteriores. Pueden variar ligeramente por el orden aleatorio de los mini-batches y la inicialización del `MLPRegressor`.
 
-## Conclusiones
-
-- La implementación de ADAM converge a la misma recta que la solución cerrada; las diferencias aparecen a partir de la 4.ª o 5.ª cifra decimal.
-- El resultado coincide con el Adam de sklearn, lo que valida la implementación.
-- Con `lr = 0.00005` hacen falta unos 300.000 pasos. Con `lr = 0.01` bastan unas 3.000 épocas para llegar al mismo resultado.
-- En un problema tan pequeño (30 puntos, 2 parámetros) la solución cerrada es exacta e instantánea. Adam se justifica cuando hay muchos datos o parámetros, o cuando no existe solución cerrada.
-
 ## Requisitos
 
 ```
