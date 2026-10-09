@@ -15,7 +15,7 @@ y se compara contra:
 
 ## Datos
 
-30 puntos con una relación lineal casi perfecta (`x = 1..30`, `y` de 5 a 55). La correlación entre `x` e `y` se comprueba con `df.corr()`.
+30 puntos con una relación lineal casi perfecta. La correlación entre `x` e `y` se comprueba con `df.corr()`.
 
 ## Contenido del notebook
 
