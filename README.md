@@ -99,7 +99,6 @@ Valores obtenidos al ejecutar la comparación con los hiperparámetros anteriore
 ```
 numpy
 pandas
-matplotlib
 scikit-learn
 ```
 
